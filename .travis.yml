@@ -1,0 +1,11 @@
+language: node_js
+node_js: node
+services:
+- mongodb
+deploy:
+  provider: heroku
+  api_key:
+    secure: ATkcfFCbkg8aBbT9FpQQfzUT3gWvtLy7FmksDwXIs16MF54KhbAz5fPriaBbnjpPnvMunZymHGSk/jYTQMjlqezO5Mtz5fKt3JWcj+1EsjveOKOcNo6zb2NCNR0FWatahspPy7zHjkp13AEyGgCCi1Dp+Bf/wE88c3Po85iuQOm7yzovQt03kCtU6Be0+e+nLtbV3KlWui4yQcTmXlEGP7/82aY6LD+eek7SoAy9W56PbrsgbFcDnBcWhkns210l39tGK7o5uug19a/xJKNCPpEakWEK02TN63/NJLfw3abNoI0vb91TYKiTbUqxr4nmUkR0UydKzaY8uu0SB1cAAD3/NewihYdqzz0wwmhHvZpmYnPybSme9Xsdtrc3uKPDU/dx3/X+JFo799ldts6eSF98GpSVkX5Byn4ATKz92hdEQSaw3RfGd6QgMjsSTWN9J1FzwvwkMF2CR2gVpZgxEMr70PhdzLftSoMbi7CWpWum9cB6xeLTlFjZ47E9H9qT/4ipLJSBvVL+m/QiFnHZmAWT600W5Sj8h6uBpr2tuGEFnSNUmZvqI/7HhpmCUh7iz0nn2lme6J9+RSx3X9x1LX3x5Bshm2to9Qb3tQAwBLKHQhPvnDfRb7urXddRlZft6dpRaqgUzsQau9BzLbI4dTwZN56MyNdwgKHbqdspMmo=
+  app: desolate-basin-38624
+  on:
+    repo: aaronleebrooks/howdy-neighbor-express
